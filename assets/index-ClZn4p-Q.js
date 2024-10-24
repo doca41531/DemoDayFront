@@ -409,7 +409,7 @@ align-items: center;
       }
     }
   }
-`,[a,m]=R.useState({title:"한강하구1",location:"경기 고양시 김포대교 남단~강화군 송해면 숭뢰리 사이 하천제방과 철책선 안쪽(수면부 포함)",infor:"자연하구로 생물다양성이 풍부하여 다양한 생태계 발달",src:"graph.png"}),f=d=>{m({title:w[d].title,location:w[d].location,infor:w[d].infor,src:w[d].src}),window.open("http://127.0.0.1:5500/front/server/map/map.html","_blank","width=700, height=700, top=50, left=50, scrollbars=yes")},h=d=>{t(d)},y=Xe.div`
+`,[a,m]=R.useState({title:"한강하구1",location:"경기 고양시 김포대교 남단~강화군 송해면 숭뢰리 사이 하천제방과 철책선 안쪽(수면부 포함)",infor:"자연하구로 생물다양성이 풍부하여 다양한 생태계 발달",src:"graph.png"}),f=d=>{m({title:w[d].title,location:w[d].location,infor:w[d].infor,src:w[d].src}),window.open("https://expressdemoday.vercel.app/map/map.html","_blank","width=700, height=700, top=50, left=50, scrollbars=yes")},h=d=>{t(d)},y=Xe.div`
 background-image: url(${i});
 background-position: center;
 width: 100%;
