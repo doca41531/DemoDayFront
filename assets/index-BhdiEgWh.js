@@ -304,6 +304,7 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     >div:nth-child(1){
+      width: 100%;
       align-items: end;
       display: flex;
       justify-content: space-around;
