@@ -289,13 +289,8 @@ position: relative;
 align-items: center;
   > div:nth-child(1) {
     position: relative;
-    margin-right: 100px;
+    margin-right: 5vw;
     margin-left: 100px;
-  }
-  >div:nth-child(2){
-    position: absolute;
-    top: 0px;
-    left: 0px;
   }
 `,Eg=Xe.div`
       width: 70vw;
@@ -322,9 +317,15 @@ align-items: center;
       border-radius: 20px;
       width: 90%;
       display: flex;
-      > div {
+      > div:nth-child(2) {
+        width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        >div{
+          display: flex;
+          flex-direction: column;
+          /* justify-content: space-between; */
+        }
         img{
           width: 14vw;
           height: 45vh;
@@ -333,8 +334,9 @@ align-items: center;
           font-size: 20px;
           font-weight: bold;
           width: 19vw;
-          margin-left: 50px;
-          margin-bottom: 20px;
+          /* margin-left: 20px; */
+          
+          margin-bottom: 5%;
         }
       }
     }
