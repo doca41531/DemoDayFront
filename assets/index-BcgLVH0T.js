@@ -324,6 +324,7 @@ align-items: center;
       display: flex;
       > div {
         display: flex;
+        justify-content: space-between;
         img{
           width: 14vw;
           height: 45vh;
