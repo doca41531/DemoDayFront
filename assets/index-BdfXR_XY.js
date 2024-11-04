@@ -82,12 +82,13 @@ Error generating stack: `+o.message+`
             border-radius: 10px;
         }
 `,D=e=>v.jsxs(mg,{$box_top:e.box_top,$box_left:e.box_left,$box_position:e.box_position,onClick:e.onClick,children:[v.jsx("div",{}),v.jsx("p",{children:e.box_text})]}),vg=Xe.div`
-width: 28vw;
-height: 75vh;
+width: fit-content;
+height: fit-content;
 display: flex;
 background-color: white;
 border-radius: 30px;
 align-items: center;
+justify-content: center;
 flex-direction: column;
 > div {
   padding-top: 25px;
@@ -259,7 +260,7 @@ gap: 30px;
         display: flex;
         align-items: center;
         width: 100%;
-        height: 7vh;
+        height: 65px;
         margin-left: 20px;
         padding-left: 35px;
         border-radius: 30px;
@@ -294,29 +295,6 @@ align-items: center;
     position: absolute;
     top: 0px;
     left: 0px;
-    >img{
-      vertical-align: baseline;
-    }
-    >img:nth-child(1){
-      position: absolute;
-      left: 145px;
-      top: 0px;
-      opacity: 0;
-      z-index: 3;
-    }
-    >img:nth-child(2){
-      position: absolute;
-      left: 325px;
-      top: 260px;
-      opacity: 0;
-      z-index: 1;
-    }
-    >img:nth-child(3){
-      position: absolute;
-      z-index: 3;
-      left: 110px;
-      top: 270px;
-    }
   }
 `,Eg=Xe.div`
   > div{
