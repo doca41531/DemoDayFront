@@ -282,6 +282,7 @@ gap: 30px;
   }
 }
 `,kg=Xe.div`
+      width: 70vw;
 display: flex;
 position: relative;
 /* justify-content: center; */
@@ -297,12 +298,12 @@ align-items: center;
     left: 0px;
   }
 `,Eg=Xe.div`
+      width: 70vw;
   > div{
     display: flex;  
     flex-direction: column;
     align-items: center;
     >div:nth-child(1){
-      width: 70vw;
       align-items: end;
       display: flex;
       justify-content: space-around;
@@ -337,6 +338,7 @@ align-items: center;
     }
   }
 `;function Cg(){const[e,t]=R.useState(0),[n,r]=R.useState(0),[i,o]=R.useState("./img/mainBg1.png"),l=[{imgLink:"./img/자세히보기.png"},{imgLink:"./img/홍수조절자세히.png"},{imgLink:"./img/해안선자세히.png"},{imgLink:"./img/영양분자세히.png"},{imgLink:"./img/수질자세히.png"},{imgLink:"./img/생물종자세히.png"},{imgLink:"./img/생산적자세히.png"},{imgLink:"./img/여가활동자세히.png"},{imgLink:"./img/경제적자세히.png"}],u=[{imgLink:"./img/에너지.png",text1:["난방온도 2℃ 낮추고 냉방온도 2℃  높이기","전기밥통 보온기능 사용 줄이기","냉장고 적정용량 유지하기","비데 절전기능 사용하기","물은 받아서 사용하기","텔레비전 시청 시간 줄이기","세탁기 사용횟수 줄이기","디지털 탄소발자국 줄이기"],text2:["창틀과 문틈 바람막이 설치하기","가전제품 대기전력 차단하기","정수 설비 또는 정수 기기 설치하기","고효율 가전제품 사용하기","친환경 콘텐싱 보일러 사용하기","주기적으로 보일러 청소하기","LED 조명으로 교체하기","가정 내 지역난방배관 청소하기"]},{imgLink:"./img/소비.png",text1:["음식물 쓰레기 줄이기","저탄소 제품 구매하기","저탄소 인증 농축산물 이용하기","품질이 보증되고 오래 사용한 제품 사기"],text2:["과대포장 제품 안 사기","재활용하기 쉬운 재질·구조로 된 제품 구매하기","우리나라, 우리 지역 식재로 이용하기"]},{imgLink:"./img/수송.png",text1:["개인용 자동차 대신 대중교통 이용하기","친환경 운전 실천하기","자통차 타이어 공기압과 휠 정기적으로 점검하기"],text2:["가까운 거리는 걷거나 자전거 이용하기","전기 수소 자동차 구매하기"]},{imgLink:"./img/자원순환.png",text1:["재활용을 위한 분리배출 실천하기","종이타월, 행드드라이어 대신 개인손수건 사용하기","장바구니 이용하고 비닐 사용 줄이기","1회용 컵 대신 다회용 컵 사용하기"],text2:["물티슈 덜 쓰기","음식 포장 시 일회용품 줄이기","인쇄 시 종이 사용 줄이기","청구서, 영수증 등의 전자적 제공 서비스 이용하기"]},{imgLink:"./img/흡수원.png",text1:["정부, 기업, 단체 등에서 추진하는 나무 심기 운동 참여하기","탄소흡수원의 중요성을 알고 보호하기"],text2:["기념일에 내(가족) 나무 심어보기"]}],s=Xe.div`
+      width: 70vw;
   display: flex;
   flex-direction: column;
   >div:nth-child(1){
